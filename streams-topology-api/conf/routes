@@ -1,0 +1,2 @@
+GET /topology/:applicationId controllers.TopologyController.getByApplicationId(applicationId: String)
+GET /registeredApplications controllers.TopologyController.getRegisteredApplications

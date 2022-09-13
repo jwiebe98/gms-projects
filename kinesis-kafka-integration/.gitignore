@@ -1,0 +1,10 @@
+/.bsp
+/.idea
+/null
+/project/project
+/project/target
+/target
+file.db
+docker-compose.yml
+*.json
+*.txt

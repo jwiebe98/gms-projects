@@ -1,0 +1,250 @@
+{
+    "type": "record",
+    "name": "esc_health_eligiblity_result",
+    "namespace": "ca.gms",
+    "fields": [
+        {
+            "name": "file_header",
+            "type": {
+                "name": "file_header",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "date_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "time_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "input_record",
+                        "type": [
+                            "null",
+                            {
+                                "type": "array",
+                                "name": "fields",
+                                "items": {
+                                    "type": "record",
+                                    "name": "field",
+                                    "fields": [
+                                        {
+                                            "name": "field_name",
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ],
+                                            "default": null
+                                        },
+                                        {
+                                            "name": "field_value",
+                                            "type": [
+                                                "null",
+                                                "string",
+                                                "int",
+                                                "long"
+                                            ],
+                                            "default": null
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "error_detail_record",
+            "type": {
+                "name": "error_detail_record",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "date_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "time_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "error_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "input_record",
+                        "type": [
+                            "null",
+                            {
+                                "type": "array",
+                                "name": "fields",
+                                "items": "ca.gms.field"
+                            }
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "error_summary_record",
+            "type": {
+                "name": "error_summary_record",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "date_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "time_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "error_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "error_count",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "english_description",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "french_description",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "file_trailer",
+            "type": {
+                "name": "file_trailer",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "date_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "time_processed",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "record_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_record_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "patient_record_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "patient_accumulator_record_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "patient_exception_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_address_processed",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "result_record_count",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        }
+    ]
+}

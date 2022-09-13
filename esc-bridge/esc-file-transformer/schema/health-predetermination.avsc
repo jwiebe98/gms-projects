@@ -1,0 +1,1037 @@
+{
+    "type": "record",
+    "name": "esc_health_predetermination",
+    "namespace": "ca.gms",
+    "fields": [
+        {
+            "name": "issuer",
+            "type": {
+                "name": "issuer",
+                "type": "record",
+                "fields": [
+                    {
+                        "name": "issuer_identifier_number",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "issuer_identifier_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "businessname"
+                        ]
+                    },
+                    {
+                        "name": "destination_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "businessname"
+                        ]
+                    },
+                    {
+                        "name": "destination_address",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "street"
+                        ]
+                    },
+                    {
+                        "name": "destination_city",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "destination_province",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "destination_postal_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "postalcode"
+                        ]
+                    },
+                    {
+                        "name": "destination_telephone_number",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "phonenumber"
+                        ]
+                    },
+                    {
+                        "name": "run_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "transmittal_sequence_number",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "cutoff_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "program_version",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "provider",
+            "type": [
+                "null",
+                {
+                    "type": "record",
+                    "name": "provider",
+                    "fields": [
+                        {
+                            "name": "provider_number",
+                            "type": [
+                                "null",
+                                "int"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_office",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_surname",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "lastname"
+                            ]
+                        },
+                        {
+                            "name": "provider_first_name",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "firstname"
+                            ]
+                        },
+                        {
+                            "name": "provider_name",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_address_line_1",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "street"
+                            ]
+                        },
+                        {
+                            "name": "provider_address_line_2",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "street"
+                            ]
+                        },
+                        {
+                            "name": "provider_address_line_3",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "street"
+                            ]
+                        },
+                        {
+                            "name": "provider_city",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_province",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_country",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "provider_postal_code",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "postalcode"
+                            ]
+                        },
+                        {
+                            "name": "provider_telephone_number",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "phonenumber"
+                            ]
+                        },
+                        {
+                            "name": "provider_language_flag",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "client",
+            "type": [
+                "null",
+                {
+                    "type": "record",
+                    "name": "client",
+                    "fields": [
+                        {
+                            "name": "client_id",
+                            "type": [
+                                "null",
+                                "int"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "client_last_name",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "lastname"
+                            ]
+                        },
+                        {
+                            "name": "client_first_name",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "firstname"
+                            ]
+                        },
+                        {
+                            "name": "client_address_line_1",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "street"
+                            ]
+                        },
+                        {
+                            "name": "client_address_line_2",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "street"
+                            ]
+                        },
+                        {
+                            "name": "client_city",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "client_province",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "client_country",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        },
+                        {
+                            "name": "client_postal_code",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null,
+                            "_tags": [
+                                "pii",
+                                "postalcode"
+                            ]
+                        },
+                        {
+                            "name": "gsas",
+                            "type": [
+                                "null",
+                                "string"
+                            ],
+                            "default": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "predetermination",
+            "type": {
+                "type": "record",
+                "name": "predetermination",
+                "fields": [
+                    {
+                        "name": "predetermination_number",
+                        "type": [
+                            "null",
+                            "long"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "load_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "settled_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_language_flag",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "provider_number",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "provider_surname",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "lastname"
+                        ]
+                    },
+                    {
+                        "name": "provider_first_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "firstname"
+                        ]
+                    },
+                    {
+                        "name": "provider_office_location_number",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "provider_province",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "provider_specialty",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_last_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "lastname"
+                        ]
+                    },
+                    {
+                        "name": "client_first_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "firstname"
+                        ]
+                    },
+                    {
+                        "name": "patient_last_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "lastname"
+                        ]
+                    },
+                    {
+                        "name": "patient_first_name",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "firstname"
+                        ]
+                    },
+                    {
+                        "name": "patient_date_of_birth",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "sex_of_patient",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "carrier_id",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "group_number",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "sas",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_id",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "patient_code",
+                        "type": [
+                            "null",
+                            "int"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "patient_relationship_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "operator_id",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "operator_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "submission_method",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "general_notes",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "general_notes_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "general_notes_update_id",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "status",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "print_on_letter",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "end_date",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "edi_authorisation_ind",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_address_line_1",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "street"
+                        ]
+                    },
+                    {
+                        "name": "client_address_line_2",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "street"
+                        ]
+                    },
+                    {
+                        "name": "client_city",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_province",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_country",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "client_postal_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null,
+                        "_tags": [
+                            "pii",
+                            "postalcode"
+                        ]
+                    },
+                    {
+                        "name": "mailing_indicator",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "attachment_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "letter_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "details",
+                        "type": {
+                            "type": "array",
+                            "items": {
+                                "type": "record",
+                                "name": "detail",
+                                "fields": [
+                                    {
+                                        "name": "pd_line_number",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "date_processed",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "adjudication_code",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "adjudication_rule_number_applied",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "frequency_rule_number_applied",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "service_code",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "service_name_english",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "service_name_french",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "professional_fee_claimed",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "professional_fee_eligible_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "deductible_amount_professional_fee",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "professional_fee_benefit_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "esi_messages",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "total_fees_claimed",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "coinsurance_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "coinsurance_percentage",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "total_fees_paid",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "paid_service_code_1",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "paid_service_code_2",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "plan_number",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "benefit_code",
+                                        "type": [
+                                            "null",
+                                            "int"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "category_code",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "category_label_english",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "category_label_french",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "coverage_code_from_eligibility",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "carrier_dental_field",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "service_code_source",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "maximum_cutback_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "rule_cutback_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "fee_guide_amount",
+                                        "type": [
+                                            "null",
+                                            "long"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "alternate_service_code",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    },
+                                    {
+                                        "name": "equivalent_service_code",
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ],
+                                        "default": null
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

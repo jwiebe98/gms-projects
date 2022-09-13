@@ -1,0 +1,181 @@
+{
+    "type": "record",
+    "name": "sms_events",
+    "namespace": "ca.gms.CommunicationEvents.SMSEvent",
+    "fields": [
+        {
+            "name": "event_type",
+            "type": "string"
+        },
+        {
+            "name": "event_timestamp",
+            "type": "long"
+        },
+        {
+            "name": "arrival_timestamp",
+            "type": "long"
+        },
+        {
+            "name": "event_version",
+            "type": "string"
+        },
+        {
+            "name": "application",
+            "type": {
+                "type": "record",
+                "name": "application",
+                "fields": [
+                    {
+                        "name": "app_id",
+                        "type": "string"
+                    },
+                    {
+                        "name": "sdk",
+                        "type": {
+                            "type": "record",
+                            "name": "sdk",
+                            "fields": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "client",
+            "type": {
+                "type": "record",
+                "name": "client",
+                "fields": [
+                    {
+                        "name": "client_id",
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "device",
+            "type": {
+                "type": "record",
+                "name": "device",
+                "fields": [
+                    {
+                        "name": "platform",
+                        "type": {
+                            "type": "record",
+                            "name": "platform",
+                            "fields": []
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "session",
+            "type": {
+                "type": "record",
+                "name": "session",
+                "fields": []
+            }
+        },
+        {
+            "name": "attributes",
+            "type": {
+                "type": "record",
+                "name": "attributes",
+                "fields": [
+                    {
+                        "name": "sender_request_id",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "destination_phone_number",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "iso_country_code",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "record_status",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "mcc_mnc",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "number_of_message_parts",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "message_id",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "message_type",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    },
+                    {
+                        "name": "origination_phone_number",
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "default": null
+                    }
+                ]
+            }
+        },
+        {
+            "name": "metrics",
+            "type": ["null", {
+                "type": "record",
+                "name": "metrics",
+                "fields": [
+                    {
+                        "name": "price_in_millicents_usd",
+                        "type": "double"
+                    }
+                ]
+            }],
+            "default": null
+        },
+        {
+            "name": "awsAccountId",
+            "type": "string"
+        }
+    ]
+}
