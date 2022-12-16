@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Gmsca.Group.GA.Backend</RootNamespace>
+    <UserSecretsId>8feefa3d-20f3-4c28-a8c1-42b0a8c5ac12</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<InternalsVisibleTo Include="$(AssemblyName)-test" />
+	<PackageReference Include="Gmsca.Group.GA.Models" Version="1.0.26" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.31.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>

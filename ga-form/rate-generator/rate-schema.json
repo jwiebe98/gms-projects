@@ -1,0 +1,1005 @@
+{
+    "EFFECTIVE_DATE": null,
+    "PROVINCE_RATES": {
+        "BC": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "AB": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "SK": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "COUPLE": null,
+                    "FAMILY": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "COUPLE": null,
+                    "FAMILY": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "COUPLE": null,
+                    "FAMILY": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "MB": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "ON": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "NS": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "PE": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "NL": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "YK": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        },
+        "NT": {
+            "HEALTH": {
+                "SILVER": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "GOLD": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                },
+                "PLATINUM": {
+                    "SINGLE": null,
+                    "FAMILY": null,
+                    "COUPLE": null
+                }
+            },
+            "DENTAL": {
+                "_500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_1500": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                },
+                "_2000": {
+                    "SILVER": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "GOLD": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    },
+                    "PLATINUM": {
+                        "SINGLE": null,
+                        "COUPLE": null,
+                        "FAMILY": null
+                    }
+                }
+            }
+        }
+    },
+    "ASSUMPTION_LIFE_PRODUCTS": {
+        "LIFE_INSURANCE": {
+            "_10000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_25000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_50000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_1XSALARY": {
+                "RATE": null
+            }
+        },
+        "ACCIDENTAL_DEATH_AND_DISMEMBERMENT": {
+            "_10000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_25000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_50000": {
+                "VOLUME": null,
+                "MINIMUM_LIVES": null,
+                "RATE": null
+            },
+            "_1XSALARY": {
+                "RATE": null
+            }
+        },
+        "CRITICAL_ILLNESS": {
+            "TRADITIONAL": {
+                "_10000": {
+                    "VOLUME": null,
+                    "MINIMUM_LIVES": null,
+                    "RATE": null
+                },
+                "_25000": {
+                    "VOLUME": null,
+                    "MINIMUM_LIVES": null,
+                    "RATE": null
+                }
+            },
+            "HIGH_SEVERITY": {
+                "_10000": {
+                    "VOLUME": null,
+                    "MINIMUM_LIVES": null,
+                    "RATE": null
+                },
+                "_25000": {
+                    "VOLUME": null,
+                    "MINIMUM_LIVES": null,
+                    "RATE": null
+                }
+            }
+        },
+        "DEPENDANT_LIFE_INSURANCE": {
+            "_5000_2500": {
+                "VOLUME": null,
+                "RATE": null,
+                "MINIMUM_LIVES": null
+            },
+            "_10000_5000": {
+                "VOLUME": null,
+                "RATE": null,
+                "MINIMUM_LIVES": null
+            }
+        },
+        "DEPENDANT_CRITICAL_ILLNESS": {
+            "TRADITIONAL": {
+                "_5000_2500": {
+                    "VOLUME": null,
+                    "RATE": null,
+                    "MINIMUM_LIVES": null
+                },
+                "_10000_5000": {
+                    "VOLUME": null,
+                    "RATE": null,
+                    "MINIMUM_LIVES": null
+                }
+            },
+            "HIGH_SEVERITY": {
+                "_5000": {
+                    "VOLUME": null,
+                    "RATE": null,
+                    "MINIMUM_LIVES": null
+                },
+                "_10000": {
+                    "VOLUME": null,
+                    "RATE": null,
+                    "MINIMUM_LIVES": null
+                }
+            }
+        },
+        "SECOND_MEDICAL_OPINION": {
+            "RATE": null,
+            "MINIMUM_LIVES": null
+        }
+    }
+}

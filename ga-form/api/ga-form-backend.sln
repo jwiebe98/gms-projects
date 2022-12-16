@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ga-form-backend", "ga-form-backend\ga-form-backend.csproj", "{34F98B3C-E21C-4F15-831E-0B281544B343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ga-form-backend-test", "ga-form-backend-test\ga-form-backend-test.csproj", "{E446CB0B-72AF-4CB8-A58C-FCFEC9084DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F98B3C-E21C-4F15-831E-0B281544B343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F98B3C-E21C-4F15-831E-0B281544B343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F98B3C-E21C-4F15-831E-0B281544B343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F98B3C-E21C-4F15-831E-0B281544B343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E446CB0B-72AF-4CB8-A58C-FCFEC9084DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E446CB0B-72AF-4CB8-A58C-FCFEC9084DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E446CB0B-72AF-4CB8-A58C-FCFEC9084DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E446CB0B-72AF-4CB8-A58C-FCFEC9084DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B143BD86-0DDF-4552-AD02-C8E42B3F6C45}
+	EndGlobalSection
+EndGlobal
