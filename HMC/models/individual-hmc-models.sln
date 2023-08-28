@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "individual-hmc-models", "individual-hmc-models\individual-hmc-models.csproj", "{08A3744C-B8F7-443A-BD84-BC9A760C7409}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "individual-hmc-models-test", "individual-hmc-models-test\individual-hmc-models-test.csproj", "{C0FC3402-059B-438F-ABEE-52416C5ABE51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A3744C-B8F7-443A-BD84-BC9A760C7409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A3744C-B8F7-443A-BD84-BC9A760C7409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A3744C-B8F7-443A-BD84-BC9A760C7409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A3744C-B8F7-443A-BD84-BC9A760C7409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FC3402-059B-438F-ABEE-52416C5ABE51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FC3402-059B-438F-ABEE-52416C5ABE51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FC3402-059B-438F-ABEE-52416C5ABE51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FC3402-059B-438F-ABEE-52416C5ABE51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6D30455-8197-45CE-919C-9206479E9C93}
+	EndGlobalSection
+EndGlobal

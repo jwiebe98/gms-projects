@@ -1,0 +1,38 @@
+name: $(Date:yyyyMMdd)$(Rev:.r)_build-$(Build.BuildId)_$(Build.SourceBranchName)
+trigger:
+  branches:
+    include:
+      - "main"
+  paths:
+    include:
+      - src/GMS.WTP.Models/*
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          - checkout: self
+
+          - task: DotNetCoreCLI@2
+            displayName: publish
+            inputs:
+              command: publish
+              projects: "src/GMS.WTP.Models/GMS.WTP.Models.csproj"
+              publishWebProjects: false
+              zipAfterPublish: false
+
+          - task: NuGetCommand@2
+            inputs:
+              command: "pack"
+              packagesToPack: "src/GMS.WTP.Models/GMS.WTP.Models.csproj"
+              packDestination: "$(Build.ArtifactStagingDirectory)"
+
+          - task: NuGetAuthenticate@1
+
+          - task: NuGetCommand@2
+            displayName: "NuGet push"
+            inputs:
+              command: push
+              publishVstsFeed: "gms/gmsca-nuget"
+              allowPackageConflicts: true

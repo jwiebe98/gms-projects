@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "wtp_csv_parser": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7114",
+      "launchBrowser": false
+    }
+  }
+}

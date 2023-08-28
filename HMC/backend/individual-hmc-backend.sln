@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "individual-hmc-backend", "individual-hmc-backend\individual-hmc-backend.csproj", "{70BDFB16-CEBE-475C-8C5B-16FB4D33D72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "individual-hmc-tests", "individual-hmc-tests\individual-hmc-tests.csproj", "{30EEB0C7-CE25-4378-8917-13DE5565237C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BDFB16-CEBE-475C-8C5B-16FB4D33D72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BDFB16-CEBE-475C-8C5B-16FB4D33D72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BDFB16-CEBE-475C-8C5B-16FB4D33D72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BDFB16-CEBE-475C-8C5B-16FB4D33D72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EEB0C7-CE25-4378-8917-13DE5565237C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EEB0C7-CE25-4378-8917-13DE5565237C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EEB0C7-CE25-4378-8917-13DE5565237C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EEB0C7-CE25-4378-8917-13DE5565237C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14511095-D8E0-4583-B37E-17F854AB4A56}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,58 @@
+name: $(Date:yyyyMMdd)$(Rev:.r)_build-$(Build.BuildId)_$(Build.SourceBranchName)
+trigger:
+  branches:
+    include:
+      - "main"
+  paths:
+    include:
+      - src/GMS.WTP.FileBackup/*
+
+pool:
+  vmImage: "ubuntu-20.04"
+
+variables:
+  projectPath: src/GMS.WTP.FileBackup
+  buildConfiguration: "Release"
+
+stages:
+  - stage: Build
+    jobs:
+      - job: Build
+        steps:
+          - checkout: self
+
+          - task: NuGetAuthenticate@1
+
+          - task: DotNetCoreCLI@2
+            displayName: publish
+            inputs:
+              command: publish
+              projects: "$(projectPath)/GMS.WTP.FileBackup.csproj"
+              publishWebProjects: false
+              zipAfterPublish: true
+              arguments: "--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)"
+
+          - publish: "$(Build.ArtifactStagingDirectory)"
+            artifact: drop
+
+  - stage: Deploy_development
+    jobs:
+      - deployment: Deploy
+        displayName: deploy to development
+        environment: "Model-Office"
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - download: current
+                  artifact: drop
+                - task: AzureFunctionApp@1
+                  displayName: "Azure Function Deploy: wtp-file-backup"
+                  inputs:
+                    azureSubscription: "gmsAzureWtp"
+                    appType: "functionApp"
+                    appName: "wtp-file-backup"
+                    package: "$(Pipeline.Workspace)/drop/$(buildConfiguration)/GMS.WTP.FileBackup.zip"
+                    deployToSlotOrASE: true
+                    resourceGroupName: "gmsAzureWtp"
+                    slotName: "development"
